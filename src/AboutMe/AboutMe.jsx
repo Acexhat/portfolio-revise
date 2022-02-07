@@ -25,25 +25,29 @@ var AboutMe = () => {
         </h3>
         <div className="AboutMeCont">
           <p className="aboutMetext">
-            Hello! My name is Akshat Bhaskar and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2018
-            when I decided to take an introductory course in my hometown on web
-            development and after that i was addicted to HTML and CSS!
-            Fast-forward to today, and I've had the privilege of working at a
+            Hello! My name is Akshat Bhaskar and I enjoy creating things that
+            live on the internet. My interest in web development started back in
+            2018 when I decided to take an introductory course in my hometown on
+            web development and after that i was addicted to HTML and CSS!
+            Fast-forward to today, and I've had the privilege of working at a{" "}
             <a
               href="http://opsveda.com//"
               target="_blank"
               className="noUnderLine"
             >
-              <span className="greenText">Supply chain Management Company</span>
+              <span className="greenText">
+                Supply chain Management Company (OpsVeda)
+              </span>
             </a>
-            , a
+            , a{" "}
             <a
               href="https://www.highradius.com/"
               target="_blank"
               className="noUnderLine"
             >
-              <span className="greenText">2021's Unicorn</span>
+              <span className="greenText">
+                2021's Unicorn (Highradius Corp)
+              </span>
             </a>
             .
           </p>
@@ -83,10 +87,18 @@ var AboutMe = () => {
           </tr>
           <tr>
             <td>
+              <li>Redux-Saga</li>
+            </td>
+            <td>
+              <li>React-native</li>
+            </td>
+          </tr>
+          <tr>
+            <td>
               <li>JAVA/J2EE</li>
             </td>
             <td>
-              <li>MongoDB</li>
+              <li>Servlet</li>
             </td>
           </tr>
         </ul>

@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 import "./Project.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import ProjectTilesLeft from "./ProjectTile";
 let Projects = () => {
   useEffect(() => {
     AOS.init({

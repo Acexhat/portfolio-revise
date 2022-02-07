@@ -16,7 +16,7 @@ var Footer = () => {
     >
       <a
         className="noUnderLine"
-        href="https://github.com/golfsierraAI/Portfolio"
+        href="https://github.com/Acexhat/portfolio-revise"
         target="_blank"
       >
         <p className="FooterText bottomlink">

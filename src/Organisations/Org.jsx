@@ -107,7 +107,7 @@ export default function Org() {
             <Tab
               disableRipple
               className={classes.Tab}
-              label="StartUp Inc."
+              label="OpsVeda Asia ltd"
               {...a11yProps(0)}
             />
             <Tab
@@ -119,18 +119,18 @@ export default function Org() {
             <Tab
               disableRipple
               className={classes.Tab}
-              label="HighRadius Corp."
+              label="GLAMGRAM"
               {...a11yProps(2)}
             />
           </Tabs>
           <TabPanel className={classes.panel} value={value} index={0}>
             <div>
               <Typography variant="h5" color="initial">
-                Front End Intern
-                <span className="greenText"> @ StartUp Inc.</span>
+                Software Developer (Intern)
+                <span className="greenText"> @ OpsVeda Asia ltd.</span>
               </Typography>
               <Typography variant="body2" color="initial">
-                June - July 2020
+                June 2021 - Present
               </Typography>
               <ul className="skillUl">
                 <li>
@@ -139,7 +139,7 @@ export default function Org() {
                     variant="caption"
                     color="initial"
                   >
-                    Worked with a team of aspiring student interns
+                    Worked with a team of ReactJs developers
                   </Typography>
                 </li>
                 <li>
@@ -148,8 +148,7 @@ export default function Org() {
                     variant="caption"
                     color="initial"
                   >
-                    Created many website layouts for clients eg. Coffe shop and
-                    Yoga Instructor
+                    Created Opsveda project from scratch in ReactJs with some libraries like Amcharts, Material-ui
                   </Typography>
                 </li>
                 <li>
@@ -158,18 +157,7 @@ export default function Org() {
                     variant="caption"
                     color="initial"
                   >
-                    It was my first internship here I learnt how to use HTML and
-                    CSS in real world.
-                  </Typography>
-                </li>
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    I was awarded with a letter of recommendation for good
-                    performance in intern period
+                    Here i got to learn about reactJS in very deep understanding and how to create a industry level project from scratch.
                   </Typography>
                 </li>
               </ul>
@@ -182,7 +170,7 @@ export default function Org() {
                 <span className="greenText"> @HighRadius</span>
               </Typography>
               <Typography variant="body2" color="initial">
-                January - March 2021
+                January - May 2021
               </Typography>
               <ul className="skillUl">
                 <li>
@@ -233,10 +221,10 @@ export default function Org() {
             <div>
               <Typography variant="h5" color="initial">
                 Full Stack Developer
-                <span className="greenText"> @HighRadius</span>
+                <span className="greenText"> @GlamGram</span>
               </Typography>
               <Typography variant="body2" color="initial">
-                April 2021 - present
+                October 2021 - January 2022
               </Typography>
               <ul className="skillUl">
                 <li>
@@ -245,8 +233,7 @@ export default function Org() {
                     variant="caption"
                     color="initial"
                   >
-                    Working with a team of experienced developers and learning
-                    everyday
+                    An NFT based Social media platform along with marketplace to sell and buy NFTs over ERC720
                   </Typography>
                 </li>
                 <li>
@@ -255,8 +242,7 @@ export default function Org() {
                     variant="caption"
                     color="initial"
                   >
-                    Creating app with front end built by ExtJs and backend by
-                    Java
+                    Joined as the Founding Member of company and took the responsiblity of CTO
                   </Typography>
                 </li>
                 <li>
@@ -265,62 +251,7 @@ export default function Org() {
                     variant="caption"
                     color="initial"
                   >
-                    Learning new things everyday and getting fit in corporate
-                    world
-                  </Typography>
-                </li>
-              </ul>
-            </div>
-          </TabPanel>
-        </div>
-      </div>
-      <div id="workMain" className="orgCont">
-        <h1 className="works AboutMeHeading WorkHeading">Where I've Worked</h1>
-        <div className={classes.root}>
-          <Tabs
-            classes={{ indicator: classes.indicator }}
-            orientation="vertical"
-            value={value}
-            onChange={handleChange}
-            aria-label="Vertical tabs example"
-            className={classes.tabs}
-          >
-            <Tab
-              disableRipple
-              className={classes.Tab}
-              label="StartUp Inc."
-              {...a11yProps(0)}
-            />
-            <Tab
-              disableRipple
-              className={classes.Tab}
-              label="HighRadius Corp."
-              {...a11yProps(1)}
-            />
-            <Tab
-              disableRipple
-              className={classes.Tab}
-              label="HighRadius Corp."
-              {...a11yProps(2)}
-            />
-          </Tabs>
-          <TabPanel className={classes.panel} value={value} index={0}>
-            <div>
-              <Typography variant="h5" color="initial">
-                Front End Intern
-                <span className="greenText"> @ StartUp Inc.</span>
-              </Typography>
-              <Typography variant="body2" color="initial">
-                June - July 2020
-              </Typography>
-              <ul className="skillUl">
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    Worked with a team of aspiring student interns
+                    Worked on full stack development where convert the idea into UI along with that created backend for user Registration
                   </Typography>
                 </li>
                 <li>
@@ -329,125 +260,7 @@ export default function Org() {
                     variant="caption"
                     color="initial"
                   >
-                    Created many website layouts for clients eg. Coffe shop and
-                    Yoga Instructor
-                  </Typography>
-                </li>
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    It was my first internship here I learnt how to use HTML and
-                    CSS in real world.
-                  </Typography>
-                </li>
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    I was awarded with a letter of recommendation for good
-                    performance in intern period
-                  </Typography>
-                </li>
-              </ul>
-            </div>
-          </TabPanel>
-          <TabPanel className={classes.panel} value={value} index={1}>
-            <div>
-              <Typography variant="h5" color="initial">
-                Software Developer Intern
-                <span className="greenText"> @HighRadius</span>
-              </Typography>
-              <Typography variant="body2" color="initial">
-                January - March 2021
-              </Typography>
-              <ul className="skillUl">
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    Worked with a very supportive team on Machine Learning, Data
-                    Science, Java and React.
-                  </Typography>
-                </li>
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    Created a machine learning model for internal working of the
-                    company.
-                  </Typography>
-                </li>
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    Created backend with java and J2EE for using the predictions
-                    in the real world.
-                  </Typography>
-                </li>
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    Created front end of the application with ReactJs and
-                    Material UI and connected the ML model with flask and java
-                    backend and made it fully functional app.
-                  </Typography>
-                </li>
-              </ul>
-            </div>
-          </TabPanel>
-          <TabPanel className={classes.panel} value={value} index={2}>
-            <div>
-              <Typography variant="h5" color="initial">
-                Full Stack Developer
-                <span className="greenText"> @HighRadius</span>
-              </Typography>
-              <Typography variant="body2" color="initial">
-                April 2021 - present
-              </Typography>
-              <ul className="skillUl">
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    Working with a team of experienced developers and learning
-                    everyday
-                  </Typography>
-                </li>
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    Creating app with front end built by ExtJs and backend by
-                    Java
-                  </Typography>
-                </li>
-                <li>
-                  <Typography
-                    className={classes.desc}
-                    variant="caption"
-                    color="initial"
-                  >
-                    Learning new things everyday and getting fit in corporate
-                    world
+                    Guided two junior interns in ReactJS to make them grow and learn
                   </Typography>
                 </li>
               </ul>
