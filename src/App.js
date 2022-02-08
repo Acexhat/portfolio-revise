@@ -9,7 +9,9 @@ import Org from "./Organisations/Org";
 import Projects from "./Projects/Projects";
 import GetInTouch from "./GetInTouch/GetInTouch";
 import Footer from "./Footer/Footer";
+import Achievments from "./Achievments/achievements";
 import { useEffect, useState } from "react";
+import ScreenshotDialog from "./Atomic/Screenshot";
 
 function App() {
   let [loading, setLoading] = useState(false);
@@ -18,6 +20,7 @@ function App() {
       setLoading(true);
     }, 3670);
   }, []);
+
   return (
     <div className="App">
       {loading ? (
@@ -29,10 +32,12 @@ function App() {
           <div className="mainContainer">
             <AboutMe />
             <Org />
-            <Projects />
+            <Projects/>
+            <Achievments />
             <GetInTouch />
             <Footer />
           </div>
+          {/* {isScreenDialog ? <ScreenshotDialog handleDialogState={handleDialogState} state={isScreenDialog} projectName={dialogProjectName} /> : null} */}
         </div>
       ) : (
         <div className="loader">
