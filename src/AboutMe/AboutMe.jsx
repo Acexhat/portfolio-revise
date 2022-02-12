@@ -54,7 +54,7 @@ var AboutMe = () => {
           <a href="#">
             <img
               className="myImg"
-              src={process.env.PUBLIC_URL + "myImg.jpeg"}
+              src={process.env.PUBLIC_URL + "myImg.jpg"}
             ></img>
           </a>
           <div className="myImgBorder"></div>
